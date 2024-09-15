@@ -1,0 +1,13 @@
+﻿  adicionar_palavra.cpp
+  captura_chutes.cpp
+  forca.cpp
+  imprime_erros.cpp
+  imprime_final.cpp
+  imprime_palavra.cpp
+  ler_arquivo.cpp
+  letra_existe.cpp
+  nao_acertou.cpp
+  sorteia_palavra.cpp
+C:\Users\fagun\source\repos\JogoDaForca\sorteia_palavra.cpp(9,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  Gerando Código...
+  JogoDaForca.vcxproj -> C:\Users\fagun\source\repos\JogoDaForca\x64\Debug\JogoDaForca.exe
