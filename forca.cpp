@@ -17,12 +17,12 @@ int main (){
     vector<char> chutes_errados;
     map<char, bool> chutou;
 
-    while(nao_acertou(palavra_secreta, chutou) && (chutes_errados.size() < 5)){
+    while(nao_acertou(palavra_secreta, chutou) && (chutes_errados.size() < 7)){
         imprime_cabecalho();
         imprime_erros(chutes_errados);
         imprime_palavra(palavra_secreta, chutou);
         captura_chutes(&chutes_errados, &chutou, palavra_secreta);
-        Sleep(1000);
+        Sleep(1500);
         system("CLS");
     }
     imprime_final(palavra_secreta, nao_acertou(palavra_secreta, chutou));
